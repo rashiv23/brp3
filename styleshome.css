@@ -134,6 +134,18 @@ body{
     word-wrap: break-word;
 }
 
+.ServiceHead{
+    left: 580px;
+    top: 154px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 6.60px; 
+    word-wrap: break-word;
+}
+
 .aboutUsBox{
     width: 1000px;
     height: 400px; 
@@ -244,13 +256,13 @@ body{
     width: 100%; 
     height: 100%; 
     position: relative; 
-    top: 1600px
+    top: 1600px;
 }
 
 .copyAboutText{
     width: 800px; 
     height: 11px; 
-    left: 550px; 
+    left: 600px; 
     top: 42px; 
     position: absolute; 
     color: black; 
@@ -268,6 +280,102 @@ body{
     top: 40px; 
     position: absolute; 
     background: #D6CCC2;
+}
+
+.serviceIntroBox{
+    width: 1100px; 
+    height: 278px; 
+    left: 190px; 
+    top: 249px; 
+    position: absolute; 
+    background: #D5BDAF; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 50px; 
+    border: 1px black solid;
+}
+
+.serviceIntroText{
+    width: 1000px; 
+    left: 250px; 
+    top: 279px; 
+    position: absolute; 
+    color: black; 
+    font-size: 25px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 1.20px; 
+    word-wrap: break-word;
+}
+
+.egHead{
+    left: 500px; 
+    top: 600px; 
+    position: absolute; 
+    color: black; 
+    font-size: 25px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.egText{
+    color: black; 
+    font-size: 25px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.egs{
+    top:640px;
+    left: 250px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 30% 25% 30% 20% 30% ;
+    grid-template-rows: 20% 20% 20%;
+}
+
+.line2Services{
+    width: 100%; 
+    height: 0px; 
+    left: 0px; 
+    top: 580px; 
+    position: absolute; 
+    border: 1px black solid;
+}
+
+.serImgBox{
+    width: 1200px; 
+    height: 600px; 
+    left: 180px; 
+    top: 820px; 
+    position: absolute;
+}
+
+.serFootBox{
+    width: 100%; height: 100%; position: relative; top: 1500px;
+}
+
+.serFootbg{
+    width: 1500px; height: 40px; left: 0px; top: 40px; position: absolute; background: #D6CCC2;
+}
+
+.serFootText{
+    width: 800px; 
+    height: 11px;
+    left: 494px; 
+    top: 50px; 
+    position: absolute; 
+    color: black; 
+    font-size: 18px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 3.30px; 
+    word-wrap: break-word;
+}
+
+.imgSer{
+    height: 700px;
 }
 
 @media only screen and (max-width: 480px){
@@ -411,7 +519,7 @@ body{
     }
 
     .aboutFounderHead{
-        width: 884px; 
+        width: 400px; 
         height: 119px; 
         left: 15px; 
         top: 850px; 
@@ -461,7 +569,7 @@ body{
     }
 
     .copyAboutText {
-        width: 467px;
+        width: 420px;
         height: 37px;
         left: 56px;
         top: 47px;
@@ -471,5 +579,72 @@ body{
 
     .copyAboutbg{
         width: 100%;
+    }
+
+    .serviceIntroBox{
+        width: 383px;
+        height: 318px;
+        left: 15px;
+        top: 275px;
+        position: absolute;
+    }
+
+    .serviceIntroText {
+        width: 339px;
+        left: 40px;
+        top: 298px;
+        position: absolute;
+        font-size: 15px;
+    }
+
+    .ServiceHead{
+        left: 77px; 
+        top: 220px;
+        position: absolute; 
+        font-size: 25px; 
+    }
+
+    .egHead {
+        left: 40px;
+        top: 643px;
+        position: absolute;
+        font-size: 14px;
+    }
+
+    .egText{
+        font-size: 12px;
+    }
+
+    .egs {
+        top: 660px;
+        left: 60px;
+        position: absolute;
+        display: grid;
+        grid-template-columns: 34% 40% 40%;
+        grid-template-rows: 12% 12% 12% 12% 12%;
+    }
+
+    .line2Services{
+        top: 620px;
+    }
+
+    .imgSer{
+        height: 224px;
+    }
+
+    .serImgBox {
+        left: 24px;
+        top: 804px;
+        position: absolute;
+        width: 347px;
+        height: 75px;
+    }
+
+    .serFootBox{
+        width: 100%; height: 100%; position: relative; top: 1000px;
+    }
+    
+    .serFootbg{
+        width: 480px; height: 40px; left: 0px; top: 40px; position: absolute; background: #D6CCC2;
     }
 }
