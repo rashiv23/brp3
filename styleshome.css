@@ -1,0 +1,227 @@
+body{
+    background-color: #F5EBE0;
+}
+
+.logobox{
+    left: 53px;
+    top: 27px;
+    position: absolute;
+}
+
+.logo{
+    width: 392px; 
+    height: 85px; 
+    top: -10px
+}
+
+.round{
+    width: 913px; 
+    height: 50px; 
+    left: 482px; 
+    top: 36px; 
+    position: absolute; 
+    background: #D6CCC2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 46px; 
+    border: 1px black solid;
+}
+
+.menu{
+    color: black; 
+    font-size: 25px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 1.50px; 
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+.elements{
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    top: 43px;
+    left: 510px;
+}
+
+.hero{
+   width: 632px; 
+   height: 553px; 
+   left: 70px; 
+   top: 235px; 
+   position: absolute;
+}
+
+.headingBox{
+    width: 550px; 
+    height: 350px; 
+    left: 30px; 
+    top: 0px; 
+    position: absolute; 
+    background: #D5BDAF; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 50px; 
+    border: 1px black solid
+}
+
+.headText{
+    width: 538px; 
+    height: 350px; 
+    left: 80px; 
+    top: 35px; 
+    position: absolute;
+}
+
+.headerText1{
+    color: black; 
+    font-size: 40px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 6px;
+    word-wrap: break-word;
+}
+
+.headerText2{
+    color: black; 
+    font-size: 40px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 700; 
+    letter-spacing: 6px;
+     word-wrap: break-word;
+}
+
+.im1{
+    width: 300px; 
+    height: 250px; 
+    left: 25px; 
+    top: 150px; 
+    position: absolute; 
+    transform: rotate(5.22deg); 
+    transform-origin: 0 0; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border: 1px black solid;
+}
+
+.im2{
+    width: 300px; 
+    height: 300px; 
+    left: 45px; 
+    top: 60px; 
+    position: absolute; 
+    transform: rotate(-11.88deg); 
+    transform-origin: 0 0; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border: 1px black solid
+}
+
+.imbox{
+    width: 450px; 
+    height: 600px; 
+    left: 826px; 
+    top: 158px; 
+    position: absolute;
+}
+
+@media only screen and (max-width: 480px){
+    .logo{
+        width: 287px;
+        height: 78px;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+    }
+
+    .hero {
+        width: 401px;
+        height: 428px;
+        left: -3px;
+        top: 250px;
+        position: absolute;
+    }
+
+    .headingBox {
+        width: 360px;
+        height: 358px;
+        left: 20px;
+        top: 0px;
+        position: absolute;
+        background: #D5BDAF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+        border: 1px black solid;
+    }
+
+    .headText {
+        width: 308px;
+        height: 393px;
+        left: 60px;
+        top: 35px;
+        position: absolute;
+    }
+
+    .headerText1 {
+        color: black;
+        font-size: 30px;
+        font-family: 'Gowun Dodum', sans-serif;
+        font-weight: 400;
+        letter-spacing: 6px;
+        word-wrap: break-word;
+    }
+
+    .headerText2 {
+        color: black;
+        font-size: 30px;
+        font-family: 'Gowun Dodum', sans-serif;
+        font-weight: 700;
+        letter-spacing: 6px;
+        word-wrap: break-word;
+    }
+
+    .imbox{
+        width: 400px; 
+        height: 40px; 
+        left: 50px; 
+        top: 650px; 
+        position: absolute;
+    }
+
+    .im1{
+        top : 0px;
+        left: 0px;
+        height: 250px;
+        width: 250px;
+    }
+    
+    .im2{
+        top : 80px;
+        left: 40px;
+        height: 250px;
+        width: 250px;
+    }
+
+    .round{
+        width: 377px; 
+        height: 40px; 
+        left: 15px; 
+        top: 160px;       
+        position: absolute; 
+    }
+
+    .elements{
+        display: flex;
+        gap: 10px;
+        position: absolute;
+        top: 170px;
+        left: 30px;
+    }
+
+    .menu{
+        color: black; 
+        font-size: 13px; 
+        font-family: 'Gowun Dodum', sans-serif; 
+        font-weight: 500; 
+        letter-spacing: 0px; 
+        word-wrap: break-word;
+        text-decoration: none;
+    }
+}
