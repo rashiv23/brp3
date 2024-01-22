@@ -122,6 +122,154 @@ body{
     position: absolute;
 }
 
+.aboutHead{
+    left: 600px;
+    top: 154px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 6.60px; 
+    word-wrap: break-word;
+}
+
+.aboutUsBox{
+    width: 1000px;
+    height: 400px; 
+    left: 127px; 
+    top: 230px; 
+    position: absolute;
+}
+
+.aboutUsbg{
+    width: 1050px; 
+    height: 430px; 
+    left: 50px; 
+    top: 0px; 
+    position: absolute; 
+    background: #D5BDAF; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 50px; border: 1px black solid;
+}
+
+.aboutUsText{
+    width: 900px; 
+    height: 474px; 
+    left: 150px; 
+    top: 22px; 
+    position: absolute; 
+    color: black; 
+    font-size: 25px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 2.0px; 
+    word-wrap: break-word;
+}
+
+.aboutFounderHead{
+    width: 884px; 
+    height: 119px; 
+    left: 500px; 
+    top: 740px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 7.70px; 
+    word-wrap: break-word;
+}
+
+.line2{
+    width: 100%; 
+    height: 0px; 
+    left: 0px; 
+    top: 705px; 
+    position: absolute; 
+    border: 1px black solid;
+}
+
+.imgBox{
+    width: 400px; 
+    height: 400px; 
+    left: 550px; 
+    top: 800px; 
+    position: absolute;
+}
+
+.papa{
+    width: 400px; 
+    height: 400px; 
+    left: 7px; 
+    top: 0px; 
+    position: absolute;
+}
+
+.aboutPapaBox{
+    width: 1050px; 
+    height: 400px; 
+    left: 110px; 
+    top: 1220px; 
+    position: absolute;
+}
+
+.aboutPapabg{
+    width: 1050px; 
+    height: 320px; 
+    left: 90px; 
+    top: 0px; 
+    position: absolute; 
+    background: #D5BDAF; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 50px; 
+    border: 1px black solid;
+}
+
+.aboutPapaText{
+    width: 1000px; 
+    height: 300px; 
+    left: 125px; 
+    top: 35px; 
+    position: absolute; 
+    color: black; 
+    font-size: 25px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 2.0px; 
+    word-wrap: break-word;
+}
+
+.copyAboutBox{
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+    top: 1600px
+}
+
+.copyAboutText{
+    width: 800px; 
+    height: 11px; 
+    left: 550px; 
+    top: 42px; 
+    position: absolute; 
+    color: black; 
+    font-size: 12px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 3.30px; 
+    word-wrap: break-word;
+}
+
+.copyAboutbg{
+    width: 1500px; 
+    height: 40px; 
+    left: 0px; 
+    top: 40px; 
+    position: absolute; 
+    background: #D6CCC2;
+}
+
 @media only screen and (max-width: 480px){
     .logo{
         width: 287px;
@@ -223,5 +371,105 @@ body{
         letter-spacing: 0px; 
         word-wrap: break-word;
         text-decoration: none;
+    }
+
+    .aboutHead{
+        left: 100px; 
+        top: 220px;
+        position: absolute; 
+        font-size: 25px; 
+    }
+
+    .aboutUsBox {
+        width: 399px;
+        height: 429px;
+        left: -32px;
+        top: 277px;
+        position: absolute;
+    }
+    
+    .aboutUsbg {
+        width: 362px;
+        height: 518px;
+        left: 50px;
+        top: 0px;
+        position: absolute;
+        background: #D5BDAF;
+    }
+    
+    .aboutUsText {
+        width: 315px;
+        height: 473px;
+        left: 84px;
+        top: 22px;
+        position: absolute;
+        font-size: 15px;
+    }
+
+    .line2{
+        top: 835px;
+    }
+
+    .aboutFounderHead{
+        width: 884px; 
+        height: 119px; 
+        left: 15px; 
+        top: 850px; 
+        position: absolute; 
+        font-size: 25px; 
+    }
+
+    .imgBox{
+        width: 400px;
+        height: 400px;
+        left: 20px;
+        top: 903px;
+        position: absolute;
+    }
+
+    .papa {
+        width: 209px;
+        height: 209px;
+        left: 76px;
+        top: 0px;
+        position: absolute;
+    }
+   
+    .aboutPapaBox {
+        width: 440px;
+        height: 400px;
+        left: -69px;
+        top: 1135px;
+        position: absolute;
+    }
+
+    .aboutPapabg {
+        width: 376px;
+        height: 383px;
+        left: 88px;
+        top: 0px;
+        position: absolute;
+    }
+
+    .aboutPapaText {
+        width: 328px;
+        height: 300px;
+        left: 125px;
+        top: 35px;
+        position: absolute;
+        font-size: 15px;
+    }
+
+    .copyAboutText {
+        width: 467px;
+        height: 37px;
+        left: 56px;
+        top: 47px;
+        position: absolute;
+        font-size: 10px;
+    }
+
+    .copyAboutbg{
+        width: 100%;
     }
 }
