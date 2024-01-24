@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT US</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+    <link rel = "shortcut icon" type = "x-icon" href="Group 4.png">
+    <link rel="stylesheet" href="styleshome.css">
+</head>
+
+<body>
+    <div class = "logobox">
+        <a href="index.html">
+            <img class = "logo" src = "image 2.png" alt = "logo">
+        </a>
+    </div>
+    <div class= "round"></div>
+    <div style="width: 100%; height: 0px; left: 0px; top: 125px; position: absolute; border: 1px black solid"></div>
+
+    <div class="elements">
+        <a class = "menu" href="index.html">HOME</a>
+        <a class = "menu" href="aboutUs2.html">ABOUT US</a>
+        <a class = "menu" href="machinery2.html">MACHINERY</a>
+        <a class = "menu" href="services2.html">SERVICES</a>
+        <a class = "menu" href="contactus2.html">CONTACT US</a>
+    </div>
+
+    <div class="contactHead">CONTACT DETAILS</div>
+
+    <div class="contactBox">
+        <div class="contactbg"></div>
+        <div class="cName">PANKAJ RANA</div>
+        <div class = "cAdd">Mahalaxmi Industrial Estate, <br/>Ground Floor, Unit 18 and 19, <br/>D.S. Road, Lower Parel West, <br/>Worli, Mumbai 400013 </div>
+        <div class= "cemail">pdrana@yahoo.co.in</div>
+        <img class = "cNameimg" src="oerson.png" />
+        <img class = "cAddimg" src="add.png" />
+        <img class = "cemailimg" src="mail.png" />
+    </div>
+
+    <div class="cline2"></div>
+
+    <div class = "h2c">REACH OUT TO US</div> 
+
+    <div class="formBox">
+        <div class = "formbg"></div>
+        <div class = "formContent">
+            <form id="myForm" action="https://formspree.io/f/mjvnkqzq" method="post">
+                <label class = "nameLabel">NAME : </label>
+                <input type="text" name="username" id = "username" required>
+
+                <label class = "emailLabel">EMAIL ID : </label>
+                <input type="text" name="email" id = "email" required>
+
+                <label class = "phoneLabel">PHONE NO. : </label>
+                <input type="text" name="phone" id = "phone" required>
+                
+                <label class = "textLabel">INQUIRY FOR : </label>
+                <input type="text" name="text" id = "text" required>
+        
+                <button class = "bBox" onclick="submitFunction()" onmouseover="this.childNodes[1].style.background='#D6CCC2'" onmouseout="this.childNodes[1].style.background='#F5EBE0'">
+                    <div class = "bBg"></div>
+                    <div class = "bText">
+                        SUBMIT
+                    </div>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function submitFunction() 
+        {
+            event.preventDefault();
+            var form = document.getElementById("myForm");
+            form.submit();
+        }
+    </script>
+
+<footer>
+    <div class = "footBoxc">
+        <div class="footerbgc"></div>
+        <div class = "copyAboutText">
+            Copyrights © BRP PRINTERS 2024. <br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp All Rights Reserved.
+        </div>
+    </div>
+</footer>
+</body>
+</html>

@@ -360,22 +360,313 @@ body{
     width: 1500px; height: 40px; left: 0px; top: 40px; position: absolute; background: #D6CCC2;
 }
 
-.serFootText{
-    width: 800px; 
-    height: 11px;
-    left: 494px; 
-    top: 50px; 
+
+.imgSer{
+    height: 700px;
+}
+
+.contactHead{
+    left: 550px; 
+    top: 154px; 
     position: absolute; 
     color: black; 
-    font-size: 18px; 
+    font-size: 40px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 6.60px; 
+    word-wrap: break-word;
+}
+
+.contactBox{
+    width: 876px; 
+    height: 402px; 
+    left: 320px; 
+    top: 230px; 
+    position: absolute;
+}
+
+.contactbg{
+    width: 850px; 
+    height: 360px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #D5BDAF; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 50px; 
+    border: 1px black solid;
+}
+
+.cName{
+    width: 300px; 
+    height: 48px; 
+    left: 265px; 
+    top: 47px; 
+    position: absolute; 
+    color: black; 
+    font-size: 25px; 
     font-family: 'Gowun Dodum', sans-serif; 
     font-weight: 400; 
     letter-spacing: 3.30px; 
     word-wrap: break-word;
 }
 
-.imgSer{
-    height: 700px;
+.cAdd{
+    width: 596px; 
+    height: 151px; 
+    left: 263px; 
+    top: 100px;
+    position: absolute; 
+    color: black; 
+    font-size: 25px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 3.30px; 
+    word-wrap: break-word;
+}
+
+.cemail{
+    width: 458px; 
+    height: 52px; 
+    left: 263px; 
+    top: 255px; 
+    position: absolute; 
+    color: black; 
+    font-size: 25px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 3.30px; 
+    word-wrap: break-word;
+}
+
+.cNameimg{
+    width: 50px; 
+    height: 45px; 
+    left: 186px; 
+    top: 43px; 
+    position: absolute;
+}
+
+.cAddimg{
+    width: 50px; 
+    height: 50px; 
+    left: 188px; 
+    top: 110px; 
+    position: absolute;
+}
+
+.cemailimg{
+    width: 66px; 
+    height: 60px; 
+    left: 180px; 
+    top: 240px; 
+    position: absolute;
+}
+
+.h2c{
+    left: 520px; 
+    top: 700px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 6.60px; 
+    word-wrap: break-word;
+}
+
+.cline2{
+    width: 100%; 
+    height: 0px; 
+    left: 0px; 
+    top: 670px; 
+    position: absolute; 
+    border: 1px black solid;
+}
+
+.formBox{
+    width: 876px; 
+    height: 400px; 
+    left: 320px; 
+    top: 810px; 
+    position: absolute;
+}
+
+.formbg{
+    width: 800px; 
+    height: 450px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #D5BDAF; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 83px; 
+    border: 1px black solid;
+}
+
+.formContent{
+    width: 622px; 
+    height: 260px; 
+    left: 90px; 
+    top: 30px; 
+    position: absolute;
+}
+
+.nameLabel{
+    left: 3px; 
+    top: 19px; 
+    position: absolute; 
+    color: black; 
+    font-size: 25px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 3.30px;
+    word-wrap: break-word;
+}
+
+.emailLabel{
+    left: 0px; 
+    top: 97px; 
+    position: absolute; 
+    color: black; 
+    font-size: 25px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 3.30px; 
+    word-wrap: break-word;
+}
+
+.phoneLabel{
+    left: 0px; 
+    top: 177px; 
+    position: absolute; 
+    color: black; 
+    font-size: 25px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 3.30px; 
+    word-wrap: break-word;
+}
+
+.textLabel{
+    left: 3px; 
+    top: 256px; 
+    position: absolute; 
+    color: black; 
+    font-size: 25px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 3.30px; 
+    word-wrap: break-word;
+}
+
+#username{
+    width: 330px; 
+    height: 40px; 
+    left: 220px; 
+    top: 12px; 
+    position: absolute; 
+    background: #F5EBE0; 
+    border-radius: 269.50px; 
+    font-size: 20px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 2.0px; 
+    word-wrap: break-word;
+}
+
+#email{ 
+    width: 330px; 
+    height: 40px; 
+    left: 220px; 
+    top: 92px; 
+    position: absolute;
+    background: #F5EBE0; 
+    border-radius: 269.50px; 
+    font-size: 20px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 2.0px; 
+    word-wrap: break-word;
+}
+
+#phone{
+    width: 330px; 
+    height: 40px; 
+    left: 220px; 
+    top: 174px; 
+    position: absolute; 
+    background: #F5EBE0;
+    border-radius: 269.50px; 
+    font-size: 20px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 2.0px; 
+    word-wrap: break-word;
+}
+
+#text{
+    width: 330px; 
+    height: 40px; 
+    left: 220px; 
+    top: 253px; 
+    position: absolute;
+    background: #F5EBE0; 
+    border-radius: 269.50px; 
+    font-size: 20px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 2.0px;
+    word-wrap: break-word;
+}
+
+.footBoxc{
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+    top: 1250px;
+}
+
+.footerbgc{
+    width: 1500px; 
+    height: 40px; 
+    left: 0px; 
+    top: 40px; 
+    position: absolute; 
+    background: #D6CCC2;
+}
+
+.bBox{
+    width: 199px; 
+    height: 61px; 
+    left: 280px; 
+    top: 350px; 
+    position: absolute; 
+    border: none; 
+    background: none; 
+    padding: 0;
+}
+
+.bBg{
+    width: 150px; 
+    height: 50px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #F5EBE0; 
+    border-radius: 269.50px;
+}
+
+.bText{
+    left: 24px; 
+    top: 7px; 
+    position: absolute; 
+    color: black; 
+    font-size: 25px; 
+    font-family: 'Gowun Dodum', sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 3.30px; 
+    word-wrap: break-word;
 }
 
 @media only screen and (max-width: 480px){
@@ -641,10 +932,231 @@ body{
     }
 
     .serFootBox{
-        width: 100%; height: 100%; position: relative; top: 1000px;
+        width: 100%; 
+        height: 100%; 
+        position: relative; 
+        top: 1000px;
     }
     
     .serFootbg{
-        width: 480px; height: 40px; left: 0px; top: 40px; position: absolute; background: #D6CCC2;
+        width: 480px; 
+        height: 40px;
+        left: 0px; 
+        top: 40px; 
+        position: absolute; 
+        background: #D6CCC2;
+    }
+
+    .contactHead{
+        left: 47px; 
+        top: 227px;
+        position: absolute; 
+        font-size: 25px; 
+    }
+
+    .contactBox {
+        width: 314px;
+        height: 299px;
+        left: 13px;
+        top: 287px;
+        position: absolute;
+    }
+
+    .contactbg {
+        width: 374px;
+        height: 313px;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+    }
+
+    .cName{
+        width: 258px;
+        height: 22px;
+        left: 80px;
+        top: 47px;
+        position: absolute;
+        font-size: 16px;
+    }
+
+    .cAdd {
+        width: 305px;
+        height: 22px;
+        left: 71px;
+        top: 100px;
+        position: absolute;
+        font-size: 16px;
+    }
+
+    .cemail{
+        width: 275px;
+        height: 33px;
+        left: 80px;
+        top: 225px;
+        position: absolute;
+        font-size: 16px;
+    }
+
+    .cNameimg {
+        width: 35px;
+        height: 35px;
+        left: 24px;
+        top: 44px;
+        position: absolute;
+    }
+
+    .cAddimg {
+        width: 35px;
+        height: 35px;
+        left: 22px;
+        top: 126px;
+        position: absolute;
+    }
+
+    .cemailimg {
+        width: 51px;
+        height: 52px;
+        left: 10px;
+        top: 209px;
+        position: absolute;
+    }
+
+    .cline2 {
+        width: 100%;
+        height: 0px;
+        left: 0px;
+        top: 646px;
+        position: absolute;
+        border: 1px black solid;
+    }
+
+    .h2c {
+        left: 38px;
+        top: 676px;
+        position: absolute;
+        font-size: 25px;
+    }
+
+    .formBox {
+        width: 302px;
+        height: 327px;
+        left: 10px;
+        top: 741px;
+        position: absolute;
+    }
+
+    .formbg {
+        width: 391px;
+        height: 371px;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+    }
+
+    .formContent {
+        width: 299px;
+        height: 260px;
+        left: 90px;
+        top: 30px;
+        position: absolute;
+    }
+
+    .nameLabel {
+        left: -50px;
+        top: 19px;
+        position: absolute;
+        font-size: 15px;
+    }
+
+    .emailLabel {
+        left: -50px;
+        top: 86px;
+        position: absolute;
+        font-size: 15px;
+    }
+
+    .phoneLabel {
+        left: -50px;
+        top: 153px;
+        position: absolute;
+        font-size: 15px;
+    }
+
+    .textLabel{
+        left: -50px;
+        top: 220px;
+        position: absolute;
+        font-size: 15px;
+    }
+    
+    #username {
+        width: 176px;
+        height: 30px;
+        left: 109px;
+        top: 16px;
+        position: absolute;
+        font-size: 15px;
+    }
+
+    #email {
+        width: 176px;
+        height: 30px;
+        left: 109px;
+        top: 80px;
+        font-size: 15px;
+        position: absolute;
+    }
+
+    #phone {
+        width: 176px;
+        height: 30px;
+        left: 109px;
+        top: 149px;
+        font-size: 15px;
+        position: absolute;
+    }
+
+    #text {
+        width: 176px;
+        height: 30px;
+        left: 109px;
+        top: 215px;
+        font-size: 15px;
+        position: absolute;
+    }
+
+    .footBoxc {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 1103px;
+    }
+
+    .bBox {
+        width: 176px;
+        height: 61px;
+        left: 28px;
+        top: 273px;
+        position: absolute;
+    }
+    
+    .bText {
+        left: 40px;
+        top: 14px;
+        position: absolute;
+        color: black;
+        font-size: 15px;
+    }
+
+    .bBg {
+        width: 137px;
+        height: 32px;
+        left: 11px;
+        top: 8px;
+        position: absolute;
+    }
+
+    .footerbgc{
+        width: 100%;
     }
 }
